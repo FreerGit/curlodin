@@ -153,7 +153,7 @@ foreign libcurl {
 
 main :: proc() {
 	curl := init()
-	idk := setopt(curl, .CURLOPT_URL, "http://ddddgoogle.")
+	idk := setopt(curl, .CURLOPT_URL, "http://google.com")
 	res := perform(curl)
 	perform(curl)
 	fmt.println(curl)
